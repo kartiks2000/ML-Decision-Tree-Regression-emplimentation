@@ -18,7 +18,7 @@ y = dataset.iloc[:,2].values
 
 
 
- 
+# We dont need to split dataset in DECISION TREE REGRESSION 
 # Splitting the dataset into Training set and Test set
 '''
 from sklearn.model_selection import train_test_split
@@ -26,7 +26,7 @@ x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.2,random_stat
 '''
 
 
-
+# We dont need apply feature scaling in DECISION TREE REGRESSION
 # Feature Scaling -> Normalizing the range of data/vairiable values
 '''
 from sklearn.preprocessing import StandardScaler
